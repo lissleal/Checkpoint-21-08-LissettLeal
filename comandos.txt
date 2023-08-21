@@ -1,0 +1,124 @@
+Comandos utilizados
+
+cd
+git init
+touch
+git add .
+git commit -m 
+git branch
+git push
+git checkout
+mkdir
+mv
+code .
+
+
+
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~
+$ cd /c/Users/lise7/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal
+$ git init
+Initialized empty Git repository in C:/Users/lise7/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal/.git/
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ touch main.js
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ touch index.html
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ git add .
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ git commit -m "commit 01 de Lissett Leal"
+[main (root-commit) 71e8985] commit 01 de Lissett Leal
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ git branch -M main
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/lissleal/Checkpoint-21-08-LissettLeal.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ git branch feature
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ mkdir Hardware
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ mkdir Software
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ mkdir SeguridadInformatica
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ touch Hardware/resumen.txt
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ touch Software/resumen.txt
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ touch SeguridadInformatica/resumen.txt
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ git add .
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ git commit -m "commit 2 de Lissett Leal"
+[feature 02181b2] commit 2 de Lissett Leal
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 363 bytes | 363.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/lissleal/Checkpoint-21-08-LissettLeal/pull/new/feature
+remote:
+To https://github.com/lissleal/Checkpoint-21-08-LissettLeal.git
+ * [new branch]      feature -> feature
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (feature)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ mv main.js resumenHardware.txt
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ mv index.html resumenSoftware.txt
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ code .
+
+lise7@DESKTOP-14MD6JJ MINGW64 ~/OneDrive/Documentos/Programacion/DigitalHouse/IntroduccionProgramacion/dh/Checkpoint-21-08-LissettLeal (main)
+$ touch comandos.txt
+
+

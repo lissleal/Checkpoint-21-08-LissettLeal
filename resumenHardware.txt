@@ -1,0 +1,5 @@
+Listar 3 memorias principales de la computadora.
+
+ROM
+Cache
+Memoria RAM
